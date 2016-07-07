@@ -393,6 +393,7 @@ class sensu (
   $enterprise_dashboard_ldap      = undef,
   $path                           = undef,
   $redact                         = [],
+  $package_checksum               = undef,
 
   ### START Hiera Lookups ###
   $extensions                  = {},
